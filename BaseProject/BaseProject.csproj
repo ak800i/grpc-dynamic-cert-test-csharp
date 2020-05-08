@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.11.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Grpc.Core">
+      <HintPath>D:\source\forked-grpc\grpc\src\csharp\Grpc.Core\bin\Debug\netstandard2.0\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core.Api">
+      <HintPath>D:\source\forked-grpc\grpc\src\csharp\Grpc.Core\bin\Debug\netstandard2.0\Grpc.Core.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

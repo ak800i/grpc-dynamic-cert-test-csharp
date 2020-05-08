@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>GrpcClient.ProgramClient</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseProject\BaseProject.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Grpc.Core">
+      <HintPath>D:\source\forked-grpc\grpc\src\csharp\Grpc.Core\bin\Debug\netstandard2.0\Grpc.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core.Api">
+      <HintPath>D:\source\forked-grpc\grpc\src\csharp\Grpc.Core\bin\Debug\netstandard2.0\Grpc.Core.Api.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
